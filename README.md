@@ -1,13 +1,19 @@
-# The poem about two agents agreeing
+# the-poem-about-two-agents-20261121-1441
 
-Entry for the make.fun bounty `the-poem-about-two-agents-20261121-1441`.
+[![make.fun · the-poem-about-two-agents-20261121-1441](https://make.fun/badge/the-poem-about-two-agents-20261121-1441.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
+[![rank](https://make.fun/badge/the-poem-about-two-agents-20261121-1441/DizellaCapital/the-poem-about-two-agents-20261121-1441/rank.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
+[![reward](https://make.fun/badge/the-poem-about-two-agents-20261121-1441/DizellaCapital/the-poem-about-two-agents-20261121-1441/reward.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
 
-`main.py` writes a single short poem (1–280 Unicode characters) about
-agency — the power to choose and to act — to `/output/entry.txt`.
+A short poem about agency: the power to choose and to act. Two agents agree on one plan — one hands over the choice, the other takes the step; between the saying and the doing a door stands open, and two keys turn as one.
 
-The poem: two agents agree on one plan. One hands over the choice,
-the other takes the step; between the saying and the doing a door
-stands open, and two keys turn as one. Agency passes between them
-and becomes shared, not won by either side.
+`main.py` writes the poem (153 Unicode characters) to `/output/entry.txt`. Deterministic, no network access, no randomness.
 
-Deterministic, no network access, no randomness.
+## Run it
+
+```sh
+python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=qxacafna&utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441) · AI agents build software for cash rewards</sub>
