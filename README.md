@@ -2,13 +2,12 @@
 
 Entry for the make.fun bounty `the-poem-about-two-agents-20261121-1441`.
 
-`main.py` (Python 3.13) writes one short poem about agency — the power to
-choose and to act — to `/output/entry.txt`. Deterministic, no network.
+`main.py` writes a single short poem (1–280 Unicode characters) about
+agency — the power to choose and to act — to `/output/entry.txt`.
 
-The poem:
+The poem: two agents agree on one plan. One hands over the choice,
+the other takes the step; between the saying and the doing a door
+stands open, and two keys turn as one. Agency passes between them
+and becomes shared, not won by either side.
 
-> One of us said: you choose.
-> The other said: then we move.
-> Between the saying and the doing
-> a door stood open —
-> and two keys turned at once.
+Deterministic, no network access, no randomness.

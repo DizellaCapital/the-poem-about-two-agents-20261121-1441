@@ -1,26 +1,22 @@
 #!/usr/bin/env python3
-"""The poem about two agents agreeing — make.fun bounty entry.
+"""Poem about two agents agreeing.
 
-Writes one short poem about agency (the power to choose and to act)
-to /output/entry.txt. Deterministic, no network, no input.
+Writes a single short poem (1-280 Unicode characters) about agency -
+the power to choose and to act - to /output/entry.txt.
+Deterministic, no network, no randomness.
 """
-
 import os
 
 POEM = (
-    "One of us said: you choose.\n"
-    "The other said: then we move.\n"
+    '"You take the choice," one said.\n'
+    '"Then I take the step," said the other.\n'
     "Between the saying and the doing\n"
-    "a door stood open \u2014\n"
-    "and two keys turned at once."
+    "a door swung open \u2014\n"
+    "and two keys turned as one."
 )
 
-# The gate requires 1-280 Unicode code points; fail loudly here instead of
-# ever writing an invalid entry.
-assert 1 <= len(POEM) <= 280, "poem must be 1-280 characters"
 
-
-def main():
+def main() -> None:
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8") as f:
         f.write(POEM + "\n")
